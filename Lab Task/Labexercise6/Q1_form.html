@@ -1,0 +1,11 @@
+<form action="Q1.php" method="post">
+  Enter 5 integers:<br /><br />
+
+  <?php
+  
+  for ($i = 0; $i < 5; $i++) {
+      echo "<input type='number' name='num[]' required><br />"; } ?>
+
+  <br />
+  <input type="submit" value="Show Values" />
+</form>
